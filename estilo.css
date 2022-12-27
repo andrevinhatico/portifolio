@@ -1,0 +1,222 @@
+h1 , 
+h2 , 
+h3 , 
+body,
+p {
+  margin: 0;
+
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;  
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;  
+}
+
+.profissao{
+  font-size: 24px; 
+}
+
+.t60 {
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.foto {
+  border: 4px solid #FFC700;
+  border-radius: 50%;
+  width: 23%;
+  margin-bottom: -140px;
+  margin-right: 24px;
+}
+
+body {
+  background-color: #E5E5E5;
+ 
+}
+
+header {
+  background-color: #FFFFFF;
+  padding: 32px 64px;
+  
+}
+
+.topo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+main {
+  padding: 40px 70px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 58px;
+  width: 288px;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid ;
+  margin-top: 8px;
+}
+
+.experiencias .linha {
+  border-color: #4200FF;  
+}
+
+.coluna-menor img {
+  width: 40px;
+  height:40px;
+  border-radius: 4px ;
+  margin-right: 8px;
+}
+
+.coluna-menor li {
+  margin-top: 32px;
+  display: flex;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+.formacao {
+  margin-top: 32px;
+}
+
+.formacao .linha {
+  border-color: #FFC700;  
+}
+
+.coluna-maior {
+margin-left: 24px;
+}
+
+.habilidades{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+  font-size: 35px;
+  margin-left: 12px;
+  margin-bottom: 20px;  
+}
+
+.habilidade{
+background-color: #FFFFFF;
+border-radius: 16px;
+padding: 24px;
+margin: 12px;
+width: 288px;
+}
+
+.habilidade h3 {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+
+.habilidade p {
+  font-size: 15px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.barra {
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background-color: #4200FF;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidade li {
+  margin-top: 32px;
+}
+
+.habilidade li:first-child  { 
+  margin-top: 0px;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  width: 392px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+ 
+}
+
+.projeto img {
+  width: 350px;
+ 
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #4200FF;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer{
+background-color: #14004d;
+color: #ffffff;
+padding: 57.6px;
+text-align: center;
+font-family: "Open Sans", sans-serif;
+}
+
+ 
